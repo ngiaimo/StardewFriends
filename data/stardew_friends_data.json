@@ -1,12 +1,449 @@
 [
     {
-        "name": "",
-        "imageSrc": "images/gifts/.png",
-        "relationship": "",
+        "name": "Abigail",
+        "imageSrc": "images/villagers/Abigail.png",
+        "marriage": "true",
         "gifts" : [
             {
-                "loves": "",
-                "likes": ""
+                "loves": "Blackberry Cobbler, Chocolate Cake, Spicy Eel, Pufferfish, Amethyst, Pumpkin",
+                "likes": "Apple, Blue Jazz, Tulip, Sweet Pea, Crocus, Earth Crystal, Fire Quartz, Quartz, Diamond, Emerald, Ruby, Topaz, Cookie, Ice Cream, Pizza, Spaghetti, Sashimi, Salad, Honey, Maple Syrup, Mayonnaise, Cheese, Juice"
+            }
+        ],
+        "location": [
+            {
+                "spring": [
+                    {
+                        "sunday": [
+                            {
+                                "9:00 AM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "In her room."
+                                    }
+                                ],
+                                "10:30 AM": [
+                                    {
+                                        "location:": "Pierre's General Store",
+                                        "description": "Leaves her room to go into Caroline and Pierre's room."
+                                    }
+                                ],
+                                "1:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving home to go to Wizard's tower."
+                                    }
+                                ],
+                                "4:00 PM": [
+                                    {
+                                        "location": "Cindersap Forest",
+                                        "description": "Near Wizard's tower."
+                                    }
+                                ],
+                                "8:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "10:30 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Arrives Home"
+                                    }
+                                ]
+                            }
+                        ],
+                        "monday": [
+                            {
+                                "9:00 AM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Leaves her room to go to the kitchen."
+                                    }
+                                ],
+                                "10:30 AM": [
+                                    {
+                                        "location:": "Pierre's General Store",
+                                        "description": "Leaves kitchen to stand in Pierre's store."
+                                    }
+                                ],
+                                "1:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving house to go to stand on bridge near Joja Mart."
+                                    }
+                                ],
+                                "1:30 PM": [
+                                    {
+                                        "location": "Pelican Town",
+                                        "description": "Standing on the bridge near Joja Mart."
+                                    }
+                                ],
+                                "4:30 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "5:20 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "In her room, playing video games.
+                                    }
+                                ],
+                                "7:30 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Goes to bed."
+                                    }
+                                ]   
+                            }
+                        ],
+                        "tuesday": [
+                            {
+                                "9:00 AM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Leaves her room to go to the kitchen."
+                                    }
+                                ],
+                                "10:30 AM": [
+                                    {
+                                        "location:": "Pierre's General Store",
+                                        "description": "Leaves kitchen to stand in Pierre's store."
+                                    }
+                                ],
+                                "3:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving home to go to lake near Carpenter's Shop OR goes to her room."
+                                    }
+                                ],
+                                "4:50 PM": [
+                                    {
+                                        "location": "The Mountain",
+                                        "description": "Next to the lake near Carpenter's Shop, playing flute OR playing Journey of the Prairi King on her console"
+                                    }
+                                ],
+                                "8:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "9:50 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Arrives at home."
+                                    }
+                                ]   
+                            }
+                        ],
+                        "wednesday": [
+                            {
+                                "10:30 AM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaves home to go to museum/library."
+                                    }
+                                ],
+                                "12:00 PM": [
+                                    {
+                                        "location:": "Museum",
+                                        "description": "Inside museum/library, looking at books."
+                                    }
+                                ],
+                                "6:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving to go to graveyard."
+                                    }
+                                ],
+                                "7:00 PM": [
+                                    {
+                                        "location": "Pelican Town",
+                                        "description": "At the graveyard."
+                                    }
+                                ],
+                                "10:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "10:40 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Arrives at home."
+                                    }
+                                ]   
+                            }
+                        ],
+                        "thursday": [
+                            {
+                                "9:00 AM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Leaves her room to go to the kitchen."
+                                    }
+                                ],
+                                "10:30 AM": [
+                                    {
+                                        "location:": "Pierre's General Store",
+                                        "description": "Leaves kitchen to stand in Pierre's store."
+                                    }
+                                ],
+                                "1:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving house to go to stand on bridge near Joja Mart."
+                                    }
+                                ],
+                                "1:30 PM": [
+                                    {
+                                        "location": "Pelican Town",
+                                        "description": "Standing on the bridge near Joja Mart."
+                                    }
+                                ],
+                                "2:50 PM": [
+                                    {
+                                        "location": "Harvey's Office",
+                                        "description": "Getting a checkup. This is only sometimes."
+                                    }
+                                ],
+                                "4:30 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "5:20 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "In her room, playing video games.
+                                    }
+                                ],
+                                "7:30 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Goes to bed."
+                                    }
+                                ]   
+                            } 
+                        ],
+                        "friday": [
+                            {
+                                "9:00 AM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Leaves her room to go to the kitchen."
+                                    }
+                                ],
+                                "11:00 AM": [
+                                    {
+                                        "location:": "Pierre's General Store",
+                                        "description": "Leaves kitchen to stand in Pierre's store."
+                                    }
+                                ],
+                                "3:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving home to go to the Saloon."
+                                    }
+                                ],
+                                "3:50 PM": [
+                                    {
+                                        "location": "Stardrop Saloon",
+                                        "description": "In the Stardrop Saloon, sitting on a sofa in the arcade."
+                                    }
+                                ],
+                                "9:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "9:40 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Arrives home."
+                                    }
+                                ]
+                            }
+                        ],
+                        "saturday": [
+                            {
+                                "9:00 AM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Leaves her room to go to the kitchen."
+                                    }
+                                ],
+                                "10:30 AM": [
+                                    {
+                                        "location:": "Pierre's General Store",
+                                        "description": "Leaves kitchen to stand in Pierre's store."
+                                    }
+                                ],
+                                "1:00 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Leaving house to go to stand on bridge near Joja Mart."
+                                    }
+                                ],
+                                "1:30 PM": [
+                                    {
+                                        "location": "Pelican Town",
+                                        "description": "Standing on bridge near Joja Mart."
+                                    }
+                                ],
+                                "4:30 PM": [
+                                    {
+                                        "location": "Walking",
+                                        "description": "Heads home."
+                                    }
+                                ],
+                                "5:20 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "In her room, playing video games."
+                                    }
+                                ],
+                                "7:30 PM": [
+                                    {
+                                        "location": "Pierre's General Store",
+                                        "description": "Goes to bed."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "summer": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }    
+                ],
+                "fall": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "winter": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "deviations": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "marriage": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ]
             }
         ]
     }

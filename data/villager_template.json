@@ -1,0 +1,167 @@
+[
+    {
+        "name": "",
+        "imageSrc": "images/villagers/.png",
+        "marriage": "true",
+        "gifts" : [
+            {
+                "loves": "",
+                "likes": ""
+            }
+        ],
+        "location": [
+            {
+                "spring": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "summer": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }    
+                ],
+                "fall": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "winter": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "deviations": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ],
+                "marriage": [
+                    {
+                        "sunday": [
+                            
+                        ],
+                        "monday": [
+                            
+                        ],
+                        "tuesday": [
+                            
+                        ],
+                        "wednesday": [
+                            
+                        ],
+                        "thursday": [
+                            
+                        ],
+                        "friday": [
+                            
+                        ],
+                        "saturday": [
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+]

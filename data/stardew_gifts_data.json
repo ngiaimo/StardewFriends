@@ -1,5 +1,10 @@
 [
     {
+        "text": "Select Item",
+        "link": "",
+        "imageSrc": "images/gifts/Select_Item.png"
+    },
+    {
         "text": "Amaranth",
         "link": "",
         "imageSrc": "images/gifts/Amaranth.png"
