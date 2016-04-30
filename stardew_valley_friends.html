@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stardew Valley Gift Tracker</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/stardew_gifts_style.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Stardew Valley Gifts</h1>
+        <table border="1" id="gifts_table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Portrait</th>
+                    <th>Gift 1</th>
+                    <th>Gift 2</th>
+                    <th>Gift(s)</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Abigail</td>
+                    <td><img src="images/villagers/Abigail.png" alt="Abigail"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Blackberry Cobbler, Chocolate Cake, Spicy Eel, Pufferfish, Amethyst, Pumpkin</strong>
+                    <br/>
+                    <br/>
+                    Likes: Apple, Blue Jazz, Tulip, Sweet Pea, Crocus, Earth Crystal, Fire Quartz, Quartz, Diamond, Emerald, Ruby, Topaz, Cookie, Ice Cream, Pizza, Spaghetti, Sashimi, Salad, Honey, Maple Syrup, Mayonnaise, Cheese, Juice</td>
+                    <td>Purple Haired Hottie - General Store</td>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td><img src="images/villagers/Alex.png" alt="Alex"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Complete Breakfast, Salmon Dinner</strong>
+                    <br/>
+                    <br/>
+                    Likes: Corn, Shashimi, Hashbrowns, Pizza, Spaghetti, Salad, Honey, Mayonnaise, Kale, Bok Choy, Sweet Pea, Parsnip, Potato, Tulip, Green Bean, Blackberry, Pancakes, Hot Pepper Jelly</td>
+                    <td>Sports Dude - Lives with old people</td>
+                </tr>
+                <tr>
+                    <td>Caroline</td>
+                    <td><img src="images/villagers/Caroline.png" alt="Caroline"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Fish Taco, Summer Spangle</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Corn, Eggplant, Tomato, Fairy Rose, Crocus, Sweet Pea, Salad, Pizza, Sashimi, Cookie, Emerald, Amethyst, Parsnip, Blue Jazz, Earth Crystal, Apple, Raddish, Daffodil, Sunflower, Diamond</td>
+                    <td>MILF - Green Hair - Pierre's Shop</td>
+                </tr>
+                <tr>
+                    <td>Clint</td>
+                    <td><img src="images/villagers/Clint.png" alt="Clint"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Artichoke Dip, Fiddlehead Risotto, Emerald, Aquamarine, Ruby, Amethyst, Topax, Jade, Gold Bar, Iridium Bar, Omni Geode,</strong>
+                    <br/>
+                    <br/>
+                    Likes: Copper Bar, Iron Bar, Pizza, Fried Mushroom, Honey, Beer, Tomato, Parsnip, Mayonnaise</td>
+                    <td>Blacksmith</td>
+                </tr>
+                <tr>
+                    <td>Demetrius</td>
+                    <td><img src="images/villagers/Demetrius.png" alt="Demetrius"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Bean Hotpot, Rice Pudding, Ice Cream, Strawberry</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Earth Crystal, Purple Mushroom, Corn, Salmonberry, Blackberry, Pizza, Honey, Hot Pepper, Mayonnaise, Melon, Parsnip, Coconut, Tuplip</td>
+                    <td>Black Guy Scientist, Carpenter's Husband</td>
+                </tr>
+                <tr>
+                    <td>Dwarf</td>
+                    <td><img src="images/villagers/Dwarf.png" alt="Dwarf"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Dwarvish Helm, Emerald, Aquamarine, Ruby, Amethyst, Topaz, Jade, Omni Geode</strong>
+                    <br/>
+                    <br/>
+                    Likes: Fire Quartz, Frozen Tear, Earth Crystal, Dwarf Scroll I, Dwarf Scroll II, Dwarf Scroll III, Dwarf Scroll IV, Dwarf Gadget</td>
+                    <td>Mines, right of entrance</td>
+                </tr>
+                <tr>
+                    <td>Emily</td>
+                    <td><img src="images/villagers/Emily.png" alt="Emily"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Survival Burger, Emerald, Aquamarine, Ruby, Amethyst, Topax, Jade, Cloth, Wool</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Salad, Autumn's Bounty, Bean Hotpot, Red Plate, Fire Quartz, Frozen Tear, Earth Crystal, Honey, Crocus, Daffodil, Omelet, Parsnip, Mayonnaise, Sweet Pea, Coffee</td>
+                    <td>Blue Hair, lives with Blonde girl, works at pub</td>
+                </tr>
+                <tr>
+                    <td>Elliot</td>
+                    <td><img src="images/villagers/Elliott.png" alt="Elliot"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Crab Cakes, Tom Kha Soup, Duck Feather, Lobster, Pomegranate</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Cheese, Crocus, Omelet, Chowder, Fish Stew, Sashimi, Beer, Wine, Squid, Octopus, Amethyst, Jelly, Mayonnaise, Tulip, Parsnip, Coffee, Sweet Pea</td>
+                    <td>Fabio Dude - Beach shack and bridge</td>
+                </tr>
+                <tr>
+                    <td>Evelyn</td>
+                    <td><img src="images/villagers/Evelyn.png" alt="Evelyn"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Chocolate Cake, Stuffing, Beet, Tulip, Fairy Rose, Diamond</strong> 
+                    <br/>
+                    <br/>
+                    Likes: All Milk, Honey, Mayonnaise, Baked Fish, Coffee, Daffodil, Jelly, Pizza, Fried Mushroom, Salad, Spaghetti, Summer Spangle, Sweet Pea, Crocus, Cranberry Sauce</td>
+                    <td>Old Lady</td>
+                </tr>
+                <tr>
+                    <td>George</td>
+                    <td><img src="images/villagers/George.png" alt="George"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Fried Mushroom, Leek</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Cookie, Crispy Bass, Eggplant Parmesan, Omelet, Parsnip Soup, Trout Soup, Ice Cream, Salad, Pizza, Spaghetti, Wine, Coffee, Honey, Daffodil</td>
+                    <td>Old man, wheelchair</td>
+                </tr>
+                <tr>
+                    <td>Gus</td>
+                    <td><img src="images/villagers/Gus.png" alt="Gus"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Fish Taco, Escargot, Orange, Diamond</strong>
+                    <br/>
+                    <br/>
+                    Likes: Apricot, Pancakes, Parsnip, Pizza, Sashimi, Mayonnaise, Spaghetti, Omelet, Potato, Tulip, Kale, Blue Jazz, Cauliflower</td>
+                    <td>Food man, saloon</td>
+                </tr>
+                <tr>
+                    <td>Haley</td>
+                    <td><img src="images/villagers/Haley.png" alt="Haley"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Pink Cake, Coconut, Fruit Salad, Sunflower</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Daffodil, Cookie, Ice Cream, Omelet, Pizza, Hashbrowns, Salad, Sashimi, Amethyst, Aquamarine, Frozen Tear, Topaz, Diamond, Sweet Pea</td>
+                    <td>Blonde Ditzy Chick</td>
+                </tr>
+                <tr>
+                    <td>Harvey</td>
+                    <td><img src="images/villagers/Harvey.png" alt="Harvey"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Super Meal, Lobster Bisque, Truffle Oil, Wine, Coffee, Pickles</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Jelly, Mayonnaise, Blueberry, Duck Egg, Strawberry, Duck Feather, Goat Milk/Large Goat Milk, Purple Mushroom, Spring Onion, Daffodil, Potato, Parsnip, Grape, Corn, Bok Choy, Blackberry, Melon, Wild Plum, Beer, Tulip, Blue Jazz</td>
+                    <td>Doctor Dude</td>
+                </tr>
+                <tr>
+                    <td>Jas</td>
+                    <td><img src="images/villagers/Jas.png" alt="Jas"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Pink Cake, Plum Pudding, Fairy Rose</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Coconut, Pizza, Cookie, Miner's Treat, Crocus, Omelet, Daffodil, Sweet Pea, Tulip, Apricot, Chocolate</td>
+                    <td>Little Girl</td>
+                </tr>
+                <tr>
+                    <td>Jodi</td>
+                    <td><img src="images/villagers/Jodi.png" alt="Jodi"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Vegetable Medley, Pancakes, Crispy Bass, Chocolate Cake, Rhubarb Pie, Fried Eel, Eggplant Parmesan, Diamond</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Salad, Sweet Pea, Blue Jazz, Pizza, Sashimi, Jelly, Wine, Parsnip, Salmonberry, Mayonnaise</td>
+                    <td>Braid chick, mom of kids</td>
+                </tr>
+                <tr>
+                    <td>Kent</td>
+                    <td><img src="images/villagers/Kent.png" alt="Kent"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Roasted Hazelnuts</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Beer, Omelet, Mayonnaise, Crispy Bass, Daffodil, Tulip, Parsnip, Melon, Blue Jazz, Sweet Pea</td>
+                    <td>Guile, father of kids</td>
+                </tr>
+                <tr>
+                    <td>Krobus</td>
+                    <td><img src="images/villagers/Krobus.png" alt="Krobus"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Love: Diamond, Iridium Bar, Wild Horseradish, Pumpkin, Void Egg</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Gold Bar, Frozen Tear</td>
+                    <td>Sewer</td>
+                </tr>
+                <tr>
+                    <td>Leah</td>
+                    <td><img src="images/villagers/Leah.png" alt="Leah"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Goat Cheese, Poppyseed Muffin, Salad, Stir Fry, Vegetable Medley, Wine</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Peach, Autumn's Bounty, Common Mushroom, Daffodil, Dandelion, Mayonnaise, Moreal, Omelet, Wild Horseradish, Sweet Pea, Blackberry, Chanterelle, Holly, Crocus, Honey, Cheese, Pale Ale, Diamond, Salmonberry, Spaghetti, Spring Onion</td>
+                    <td>Hot Red Head - Sculpter on River</td>
+                </tr>
+                <tr>
+                    <td>Lewis</td>
+                    <td><img src="images/villagers/Lewis.png" alt="Lewis"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Vegetable Medley, Glazed Yams, Autum's Bounty, Hot Pepper</strong>
+                    <br/>
+                    <br/>
+                    Likes: Coconut, Crocus, Cactus Fruit, Pale Ale, Blueberry, Spaghetti, Corn, Pizza, Jelly, Mayonnaise, Parsnip, Potato, Sweet Pea, Sashimi</td>
+                    <td>Mayor</td>
+                </tr>
+                <tr>
+                    <td>Linus</td>
+                    <td><img src="images/villagers/Linus.png" alt="Linus"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Blueberry Tart, Dish O' The Sea, Coconut, Cactus Fruit, Yam</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Tulip, Cheese, Mayonnaise, Corn, Sashimi, Salad, Pizza, Beer, Honey, Jelly, Chanterelle, Winter Root, Wild Horseradish, Common Mushroom, Blackberry, Spring Onion, Hot Pepper, Omelet, Crystal Fruit, Grape</td>
+                    <td>Wild Man, Lives in tent</td>
+                </tr>
+                <tr>
+                    <td>Marnie</td>
+                    <td><img src="images/villagers/Marnie.png" alt="Marnie"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Pink Cake, Farmer's Lunch, Pumpkin Pie, Diamond</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Crocus, All Milk, Omelet, Sweet Pea, Spaghetti, Baked Fish, Corn, Amaranth, Salad, Pizza, Honey, Mayonnaise, Blue Jazz, Garlic, Beer, Parsnip, Chocolate Cake, Quartz</td>
+                    <td>Big chick, animal seller south of farm</td>
+                </tr>
+                <tr>
+                    <td>Maru</td>
+                    <td><img src="images/villagers/Maru.png" alt="Maru"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Cheese Cauliflower, Pepper Poppers, Rhubarb Pie, Miner's Treat, Diamond, Gold Bar, Iridium Bar, Battery Pack, Cauliflower, Strawberry</strong>
+                    <br/>
+                    <br/>
+                    Likes: Pizza, Quartz, Topax, Frozen Tear, Earth Crystal, Amethyst, Jade, Copper Bar, Iron Bar, Sweet Pea, Tulip, Crocus, Blue Jazz, Yam, Eggplant, Amaranth, Parsnip, Pancakes, Mayonnaise</td>
+                    <td>Glasses Cutie, mother is carpenter</td>
+                </tr>
+                <tr>
+                    <td>Pam</td>
+                    <td><img src="images/villagers/Pam.png" alt="Pam"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Parsnip Soup, Glazed Yams, Pale Ale, Beer, Parsnip, Cactus Fruit</strong>
+                    <br/>
+                    <br/>
+                    Likes; All Milk, Blackberry, Crocus, Diamond, Sweet Pea, Omelet, Mayonnaise</td>
+                    <td>Drunk Lady, saloon every night</td>
+                </tr>
+                <tr>
+                    <td>Penny</td>
+                    <td><img src="images/villagers/Penny.png" alt="Penny"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Red Plate, Tom Kha Soup, Roots Platter, Melon, Diamond, Emerald, Sandfish, Poppy</strong> 
+                    <br/>
+                    <br/>
+                    Likes: All Milk, Leek, Mayonnaise, Tulip, Dandelion, Sweet Pea, Crocus, Cheese, Corn, Pizza, Amethyst, Aquamarine, Sunflower, Eggplant, HOney, Parsnip, Spaghetti, Frozen Tear</td>
+                    <td>Cute Redhead, teaches kids at library</td>
+                </tr>
+                <tr>
+                    <td>Pierre</td>
+                    <td><img src="images/villagers/Pierre.png" alt="Pierre"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Fried Calamari</strong> 
+                    <br/>
+                    <br/>
+                    Likes: All Milk, Spaghetti, Omelet, Maki Roll, Sashimi, Eggplant, Pickles, Wine, Mayonnaise, Daffodil, Sweet Pea, Parsnip, Potato, Tulip, Green Bean, Blue Jazz, Cauliflower, Coffee</td>
+                    <td>Glasses, general store</td>
+                </tr>
+                <tr>
+                    <td>Robin</td>
+                    <td><img src="images/villagers/Robin.png" alt="Robin"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Spaghetti, Goat Cheese, Peach</strong>
+                    <br/>
+                    <br/>			
+                    Likes: All Milk, Pizza, Salad, Honey, Cherry, Sweet Pea, Crocus, Strawberry, Potato, Tulip, Blue Jazz, Mayonnaise, Sunflower</td>
+                    <td>Redhead, Carpenter</td>
+                </tr>
+                <tr>
+                    <td>Sam</td>
+                    <td><img src="images/villagers/Sam.png" alt="Sam"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Pizza, Cactus Fruit, Maple Bar, Tigerseye</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Joja Cola, Egg, Brown Egg, Cheese, Goat Cheese, Ice Cream, Earth Crystal, Sashimi, Honey, Pancakes</td>
+                    <td>Goku wannabe</td>
+                </tr>
+                <tr>
+                    <td>Sandy</td>
+                    <td><img src="images/villagers/Sandy.png" alt="Sandy"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Daffodil, Sweet Pea, Crocus</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Goat Milk/Large Goat Milk, Wool, Cloth</td>
+                    <td>Desert chick</td>
+                </tr>
+                <tr>
+                    <td>Sebastian</td>
+                    <td><img src="images/villagers/Sebastian.png" alt="Sebastian"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Obsidian, Sashimi, Pumpkin Soup, Frozen Tear, Void Egg</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Pumpkin, Tomato, Cauliflower, Potato, Quartz, Amethyst, Parsnip, Cheese Cauliflower, Plum Pudding, Maki Roll, Pizza, Coffee, Salad, Hashbrowns</td>
+                    <td>Emo guy, carpenter's son</td>
+                </tr><tr>
+                    <td>Shane</td>
+                    <td><img src="images/villagers/Shane.png" alt="Shane"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Pizza, Pepper Poppers, Beer, Hot Pepper</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Blue Jazz, Blackberry, Juice (Any), Pale Ale, Mayonnaise, Corn, Fairy Rose, Sweet Pea, Green Bean, Coffee, Ice Cream, Cheese, Sashimi</td>
+                    <td>Drunk guy, lives at ranch</td>
+                </tr>
+                <tr>
+                    <td>Vincent</td>
+                    <td><img src="images/villagers/Vincent.png" alt="Vincent"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Pink Cake, Cranberry Candy, Grape</strong> 
+                    <br/>
+                    <br/>
+                    Likes: Pizza, Cookie, Apricot, Coconut, Crocus, Daffodil, Sweet Pea, Clam, Blue Jazz</td>
+                    <td>Little kid</td>
+                </tr>
+                <tr>
+                    <td>Willy</td>
+                    <td><img src="images/villagers/Willy.png" alt="Willy"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Catfish, Octopus, Sea Cucumber, Sturgeon, Pumpkin, Diamond, Iridium Bar</strong>
+                    <br/>
+                    <br/>
+                    Likes: Mayonnaise, Tiger Trout, Lingcod, Honey, Gold Bar, Beer, Wine, Parsnip, Kale, Sweet Pea, Potato, Tulip, Green Bean, Juice</td>
+                    <td>Fisherman guy, beach</td>
+                </tr>
+                <tr>
+                    <td>Wizard</td>
+                    <td><img src="images/villagers/Wizard.png" alt="Wizard"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Rabbit's Foot, Solar Essence, Void Essence, Purple Mushroom, Super Cucumber</strong>
+                    <br/>
+                    <br/>
+                    Likes: Amaranth, Parsnip, Aquamarine, Blue Jazz, Earth Crystal, Esperite, Frozen Tear, Honey, Jelly, Omelet, Thunder Egg, Wine, Quartz, Sashimi, Sweet Pea</td>
+                    <td>Tower, south west</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div id="item-box">
+            <input id="search-box" type="text" name="item-search" placeholder="Search Item" autofocus>
+            
+            <div id="item-list">
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="scripts/stardew_friends.js"></script>
+    </body>
+</html>

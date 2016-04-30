@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stardew_gifts_style.css">
+        <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
+    </head>
+    <body>
+        <div id="item-box">
+            <input id="search-box" type="text" name="item-search" placeholder="Search Item" autofocus>
+            
+            <div id="item-list">
+            </div>
+        </div>
+        <script type="text/javascript">
+            "use strict";
+            
+            var gift_list = [];
+            $.getJSON( "stardew_gifts_data.json", function( data ) {
+                gift_list = data;
+              });
+            
+            $("#search-box").on('change keyup paste', function() {
+               searchGiftList();
+            });
+            
+            function searchGiftList() {
+                var search = $("#search-box").val();
+    
+                if(search.length > 0) {
+                    $("#item-list").empty();
+                    populateGifts(search);
+                } else {
+                    populateGifts();
+                }
+            }
+            
+            function populateGifts(searchTerm) {
+                if(searchTerm !== undefined) {
+                    for(var i = 0; i < gift_list.length; i++) {
+                        var item = gift_list[i].text;
+                        item = item.toLowerCase();
+                        if(item.indexOf(searchTerm.toLowerCase()) >= 0) {
+                            $("#item-list").append("<img class='item' src='" + gift_list[i].imageSrc + "' title='" + gift_list[i].text + "'>");
+                        }
+                    }  
+                } else {
+                    for(var i = 0; i < gift_list.length; i++) {
+                        $("#item-list").append("<img class='item' src='" + gift_list[i].imageSrc + "' title='" + gift_list[i].text + "'>");
+                    }   
+                }
+            }
+            
+            $("#item-list").on('click', 'img.item', function() {
+                alert($(this).attr("src"));
+                $("#item-box").remove();
+            });
+            
+            $("#item-list").on('mouseover', 'img.item', function() {
+                $(this).addClass("hovered");
+            });
+            
+            $("#item-list").on('mouseleave', 'img.item', function() {
+                $(this).removeClass("hovered");
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,427 @@
+[
+    {
+        "text": "Amaranth",
+        "link": "",
+        "imageSrc": "images/gifts/Amaranth.png"
+    },
+    {
+        "text": "Amethyst",
+        "link": "",
+        "imageSrc": "images/gifts/Amethyst.png"
+    },
+    {
+        "text": "Apple",
+        "link": "",
+        "imageSrc": "images/gifts/Apple.png"
+    },
+    {
+        "text": "Apricot",
+        "link": "",
+        "imageSrc": "images/gifts/Apricot.png"
+    },
+    {
+        "text": "Aquamarine",
+        "link": "",
+        "imageSrc": "images/gifts/Aquamarine.png"
+    },
+    {
+        "text": "Artichoke Dip",
+        "link": "",
+        "imageSrc": "images/gifts/Artichoke_Dip.png"
+    },
+    {
+        "text": "Autumns Bounty",
+        "link": "",
+        "imageSrc": "images/gifts/Autumns_Bounty.png"
+    },
+    {
+        "text": "Baked Fish",
+        "link": "",
+        "imageSrc": "images/gifts/Baked_Fish.png"
+    },
+    {
+        "text": "Battery Pack",
+        "link": "",
+        "imageSrc": "images/gifts/Battery_Pack.png"
+    },
+    {
+        "text": "Bean Hotpot",
+        "link": "",
+        "imageSrc": "images/gifts/Bean_Hotpot.png"
+    },
+    {
+        "text": "Beer",
+        "link": "",
+        "imageSrc": "images/gifts/Beer.png"
+    },
+    {
+        "text": "Beet",
+        "link": "",
+        "imageSrc": "images/gifts/Beet.png"
+    },
+    {
+        "text": "Blackberry",
+        "link": "",
+        "imageSrc": "images/gifts/Blackberry.png"
+    },
+    {
+        "text": "Blackberry Cobbler",
+        "link": "",
+        "imageSrc": "images/gifts/Blackberry_Cobbler.png"
+    },
+    {
+        "text": "Blue Jazz",
+        "link": "",
+        "imageSrc": "images/gifts/Blue_Jazz.png"
+    },
+    {
+        "text": "Blueberry",
+        "link": "",
+        "imageSrc": "images/gifts/Blueberry.png"
+    },
+    {
+        "text": "Blueberry Tart",
+        "link": "",
+        "imageSrc": "images/gifts/Blueberry_Tart.png"
+    },
+    {
+        "text": "Bok Choy",
+        "link": "",
+        "imageSrc": "images/gifts/Bok_Choy.png"
+    },
+    {
+        "text": "Cactus Fruit",
+        "link": "",
+        "imageSrc": "images/gifts/Cactus_Fruit.png"
+    },
+    {
+        "text": "Catfish",
+        "link": "",
+        "imageSrc": "images/gifts/Catfish.png"
+    },
+    {
+        "text": "Cauliflower",
+        "link": "",
+        "imageSrc": "images/gifts/Cauliflower.png"
+    },
+    {
+        "text": "Cave Carrot",
+        "link": "",
+        "imageSrc": "images/gifts/Cave_Carrot.png"
+    },
+    {
+        "text": "Chanterelle",
+        "link": "",
+        "imageSrc": "images/gifts/Chanterelle.png"
+    },
+    {
+        "text": "Cheese",
+        "link": "",
+        "imageSrc": "images/gifts/Cheese.png"
+    },
+    {
+        "text": "Cheese Cauliflower",
+        "link": "",
+        "imageSrc": "images/gifts/Cheese_Cauliflower.png"
+    },
+    {
+        "text": "Cherry",
+        "link": "",
+        "imageSrc": "images/gifts/Cherry.png"
+    },
+    {
+        "text": "Chocolate Cake",
+        "link": "",
+        "imageSrc": "images/gifts/Chocolate_Cake.png"
+    },
+    {
+        "text": "Chowder",
+        "link": "",
+        "imageSrc": "images/gifts/Chowder.png"
+    },
+    {
+        "text": "Clam",
+        "link": "",
+        "imageSrc": "images/gifts/Clam.png"
+    },
+    {
+        "text": "Clay",
+        "link": "",
+        "imageSrc": "images/gifts/Clay.png"
+    },
+    {
+        "text": "Cloth",
+        "link": "",
+        "imageSrc": "images/gifts/Cloth.png"
+    },
+    {
+        "text": "Coconut",
+        "link": "",
+        "imageSrc": "images/gifts/Coconut.png"
+    },
+    {
+        "text": "Coffee",
+        "link": "",
+        "imageSrc": "images/gifts/Coffee.png"
+    },
+    {
+        "text": "Complete Breakfast",
+        "link": "",
+        "imageSrc": "images/gifts/Complete_Breakfast.png"
+    },
+    {
+        "text": "Cookie",
+        "link": "",
+        "imageSrc": "images/gifts/Cookie.png"
+    },
+    {
+        "text": "Copper Bar",
+        "link": "",
+        "imageSrc": "images/gifts/Copper_Bar.png"
+    },
+    {
+        "text": "Coral",
+        "link": "",
+        "imageSrc": "images/gifts/Coral.png"
+    },
+    {
+        "text": "Corn",
+        "link": "",
+        "imageSrc": "images/gifts/Corn.png"
+    },
+    {
+        "text": "Crab",
+        "link": "",
+        "imageSrc": "images/gifts/Crab.png"
+    },
+    {
+        "text": "Crab Cakes",
+        "link": "",
+        "imageSrc": "images/gifts/Crab_Cakes.png"
+    },
+    {
+        "text": "Cranberries",
+        "link": "",
+        "imageSrc": "images/gifts/Cranberries.png"
+    },
+    {
+        "text": "Cranberry Candy",
+        "link": "",
+        "imageSrc": "images/gifts/Cranberry_Candy.png"
+    },
+    {
+        "text": "Cranberry Sauce",
+        "link": "",
+        "imageSrc": "images/gifts/Cranberry_Sauce.png"
+    },
+    {
+        "text": "Crispy Bass",
+        "link": "",
+        "imageSrc": "images/gifts/Crispy_Bass.png"
+    },
+    {
+        "text": "Crocus",
+        "link": "",
+        "imageSrc": "images/gifts/Crocus.png"
+    },
+    {
+        "text": "Crystal Fruit",
+        "link": "",
+        "imageSrc": "images/gifts/Crystal_Fruit.png"
+    },
+    {
+        "text": "Daffodil",
+        "link": "",
+        "imageSrc": "images/gifts/Daffodil.png"
+    },
+    {
+        "text": "Diamond",
+        "link": "",
+        "imageSrc": "images/gifts/Diamond.png"
+    },
+    {
+        "text": "Dish O' The Sea",
+        "link": "",
+        "imageSrc": "images/gifts/Dish_O_The_Sea.png"
+    },
+    {
+        "text": "Driftwood",
+        "link": "",
+        "imageSrc": "images/gifts/Driftwood.png"
+    },
+    {
+        "text": "Duck Egg",
+        "link": "",
+        "imageSrc": "images/gifts/Duck_Egg.png"
+    },
+    {
+        "text": "Duck Feather",
+        "link": "",
+        "imageSrc": "images/gifts/Duck_Feather.png"
+    },
+    {
+        "text": "Duck Mayonnaise",
+        "link": "",
+        "imageSrc": "images/gifts/Duck_Mayonnaise.png"
+    },
+    {
+        "text": "Dwarf Gadget",
+        "link": "",
+        "imageSrc": "images/gifts/Dwarf_Gadget.png"
+    },
+    {
+        "text": "Dwarf Scroll I",
+        "link": "",
+        "imageSrc": "images/gifts/Dwarf_Scroll_I.png"
+    },
+    {
+        "text": "Dwarf Scroll II",
+        "link": "",
+        "imageSrc": "images/gifts/Dwarf_Scroll_II.png"
+    },
+    {
+        "text": "Dwarf Scroll III",
+        "link": "",
+        "imageSrc": "images/gifts/Dwarf_Scroll_III.png"
+    },
+    {
+        "text": "Dwarf Scroll IV",
+        "link": "",
+        "imageSrc": "images/gifts/Dwarf_Scroll_IV.png"
+    },
+    {
+        "text": "Dwarvish Helm",
+        "link": "",
+        "imageSrc": "images/gifts/Dwarvish_Helm.png"
+    },
+    {
+        "text": "Earth Crystal",
+        "link": "",
+        "imageSrc": "images/gifts/Earth_Crystal.png"
+    },
+    {
+        "text": "Eggplant",
+        "link": "",
+        "imageSrc": "images/gifts/Eggplant.png"
+    },
+    {
+        "text": "Eggplant Parmesan",
+        "link": "",
+        "imageSrc": "images/gifts/Eggplant_Parmesan.png"
+    },
+    {
+        "text": "Emerald",
+        "link": "",
+        "imageSrc": "images/gifts/Emerald.png"
+    },
+    {
+        "text": "Escargot",
+        "link": "",
+        "imageSrc": "images/gifts/Escargot.png"
+    },
+    {
+        "text": "Esperite",
+        "link": "",
+        "imageSrc": "images/gifts/Esperite.png"
+    },
+    {
+        "text": "Fairy Rose",
+        "link": "",
+        "imageSrc": "images/gifts/Fairy_Rose.png"
+    },
+    {
+        "text": "Farmer's Lunch",
+        "link": "",
+        "imageSrc": "images/gifts/Farmers_Lunch.png"
+    },
+    {
+        "text": "Fiddlehead Risotto",
+        "link": "",
+        "imageSrc": "images/gifts/Fiddlehead_Risotto.png"
+    },
+    {
+        "text": "Fire Quartz",
+        "link": "",
+        "imageSrc": "images/gifts/Fire_Quartz.png"
+    },
+    {
+        "text": "Fish Stew",
+        "link": "",
+        "imageSrc": "images/gifts/Fish_Stew.png"
+    },
+    {
+        "text": "Fish Taco",
+        "link": "",
+        "imageSrc": "images/gifts/Fish_Taco.png"
+    },
+    {
+        "text": "Fried Calamari",
+        "link": "",
+        "imageSrc": "images/gifts/Fried_Calamari.png"
+    },
+    {
+        "text": "Fried Mushroom",
+        "link": "",
+        "imageSrc": "images/gifts/Fried_Mushroom.png"
+    },
+    {
+        "text": "Frozen Tear",
+        "link": "",
+        "imageSrc": "images/gifts/Frozen_Tear.png"
+    },
+    {
+        "text": "Fruit Salad",
+        "link": "",
+        "imageSrc": "images/gifts/Fruit_Salad.png"
+    },
+    {
+        "text": "Garlic",
+        "link": "",
+        "imageSrc": "images/gifts/Garlic.png"
+    },
+    {
+        "text": "Glazed Yams",
+        "link": "",
+        "imageSrc": "images/gifts/Glazed_Yams.png"
+    },
+    {
+        "text": "Goat Cheese",
+        "link": "",
+        "imageSrc": "images/gifts/Goat_Cheese.png"
+    },
+    {
+        "text": "Gold Bar",
+        "link": "",
+        "imageSrc": "images/gifts/Gold_Bar.png"
+    },
+    {
+        "text": "Gold Ore",
+        "link": "",
+        "imageSrc": "images/gifts/Gold_Ore.png"
+    },
+    {
+        "text": "Grape",
+        "link": "",
+        "imageSrc": "images/gifts/Grape.png"
+    },
+    {
+        "text": "Green Bean",
+        "link": "",
+        "imageSrc": "images/gifts/Green_Bean.png"
+    },
+    {
+        "text": "Hashbrowns",
+        "link": "",
+        "imageSrc": "images/gifts/Hashbrowns.png"
+    },
+    {
+        "text": "Hazelnut",
+        "link": "",
+        "imageSrc": "images/gifts/Hazelnut.png"
+    },
+    {
+        "text": "Holly",
+        "link": "",
+        "imageSrc": "images/gifts/Holly.png"
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "name": "",
+        "imageSrc": "images/gifts/.png",
+        "relationship": "",
+        "gifts" : [
+            {
+                "loves": "",
+                "likes": ""
+            }
+        ]
+    }
+]
