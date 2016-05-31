@@ -428,5 +428,490 @@
         "text": "Holly",
         "link": "",
         "imageSrc": "images/gifts/Holly.png"
+    },
+    {
+        "text": "Honey",
+        "link": "",
+        "imageSrc": "images/gifts/Honey.png"
+    },
+    {
+        "text": "Hot Pepper",
+        "link": "",
+        "imageSrc": "images/gifts/Hot_Pepper.png"
+    },
+    {
+        "text": "Ice Cream",
+        "link": "",
+        "imageSrc": "images/gifts/Ice_Cream.png"
+    },
+    {
+        "text": "Iridium Bar",
+        "link": "",
+        "imageSrc": "images/gifts/Iridium_Bar.png"
+    },
+    {
+        "text": "Iron Bar",
+        "link": "",
+        "imageSrc": "images/gifts/Iron_Bar.png"
+    },
+    {
+        "text": "Jade",
+        "link": "",
+        "imageSrc": "images/gifts/Jade.png"
+    },
+    {
+        "text": "Jelly",
+        "link": "",
+        "imageSrc": "images/gifts/Jelly.png"
+    },
+    {
+        "text": "Joja Cola",
+        "link": "",
+        "imageSrc": "images/gifts/Joja_Cola.png"
+    },
+    {
+        "text": "Juice",
+        "link": "",
+        "imageSrc": "images/gifts/Juice.png"
+    },
+    {
+        "text": "Kale",
+        "link": "",
+        "imageSrc": "images/gifts/Kale.png"
+    },
+    {
+        "text": "Large Goat Milk",
+        "link": "",
+        "imageSrc": "images/gifts/L_Goat_Milk.png"
+    },
+    {
+        "text": "Leek",
+        "link": "",
+        "imageSrc": "images/gifts/Leek.png"
+    },
+    {
+        "text": "Limestone",
+        "link": "",
+        "imageSrc": "images/gifts/Limestone.png"
+    },
+    {
+        "text": "Lingcod",
+        "link": "",
+        "imageSrc": "images/gifts/Lingcod.png"
+    },
+    {
+        "text": "Lobster",
+        "link": "",
+        "imageSrc": "images/gifts/Lobster.png"
+    },
+    {
+        "text": "Lobster Bisque",
+        "link": "",
+        "imageSrc": "images/gifts/Lobster_Bisque.png"
+    },
+    {
+        "text": "Maki Roll",
+        "link": "",
+        "imageSrc": "images/gifts/Maki_Roll.png"
+    },
+    {
+        "text": "Malachite",
+        "link": "",
+        "imageSrc": "images/gifts/Malachite.png"
+    },
+    {
+        "text": "Maple Bar",
+        "link": "",
+        "imageSrc": "images/gifts/Maple_Bar.png"
+    },
+    {
+        "text": "Maple Syrup",
+        "link": "",
+        "imageSrc": "images/gifts/Maple_Syrup.png"
+    },
+    {
+        "text": "Mayonnaise",
+        "link": "",
+        "imageSrc": "images/gifts/Mayonnaise.png"
+    },
+    {
+        "text": "Melon",
+        "link": "",
+        "imageSrc": "images/gifts/Melon.png"
+    },
+    {
+        "text": "Milk",
+        "link": "",
+        "imageSrc": "images/gifts/Milk.png"
+    },
+    {
+        "text": "Miner's Treat",
+        "link": "",
+        "imageSrc": "images/gifts/Miners_Treat.png"
+    },
+    {
+        "text": "Morel",
+        "link": "",
+        "imageSrc": "images/gifts/Morel.png"
+    },
+    {
+        "text": "Obsidian",
+        "link": "",
+        "imageSrc": "images/gifts/Obsidian.png"
+    },
+    {
+        "text": "Octopus",
+        "link": "",
+        "imageSrc": "images/gifts/Octopus.png"
+    },
+    {
+        "text": "Omelet",
+        "link": "",
+        "imageSrc": "images/gifts/Omelet.png"
+    },
+    {
+        "text": "Omni Geode",
+        "link": "",
+        "imageSrc": "images/gifts/Omni_Geode.png"
+    },
+    {
+        "text": "Orange",
+        "link": "",
+        "imageSrc": "images/gifts/Orange.png"
+    },
+    {
+        "text": "Pancakes",
+        "link": "",
+        "imageSrc": "images/gifts/Pancakes.png"
+    },
+    {
+        "text": "Parsnip",
+        "link": "",
+        "imageSrc": "images/gifts/Parsnip.png"
+    },
+    {
+        "text": "Parsnip Soup",
+        "link": "",
+        "imageSrc": "images/gifts/Parsnip_Soup.png"
+    },
+    {
+        "text": "Peach",
+        "link": "",
+        "imageSrc": "images/gifts/Peach.png"
+    },
+    {
+        "text": "Pepper Poppers",
+        "link": "",
+        "imageSrc": "images/gifts/Pepper_Poppers.png"
+    },
+    {
+        "text": "Pickles",
+        "link": "",
+        "imageSrc": "images/gifts/Pickles.png"
+    },
+    {
+        "text": "Pine Tar",
+        "link": "",
+        "imageSrc": "images/gifts/Pine_Tar.png"
+    },
+    {
+        "text": "Pink Cake",
+        "link": "",
+        "imageSrc": "images/gifts/Pink_Cake.png"
+    },
+    {
+        "text": "Pizza",
+        "link": "",
+        "imageSrc": "images/gifts/Pizza.png"
+    },
+    {
+        "text": "Plum Pudding",
+        "link": "",
+        "imageSrc": "images/gifts/Plum_Pudding.png"
+    },
+    {
+        "text": "Pomegranate",
+        "link": "",
+        "imageSrc": "images/gifts/Pomegranate.png"
+    },
+    {
+        "text": "Poppy",
+        "link": "",
+        "imageSrc": "images/gifts/Poppy.png"
+    },
+    {
+        "text": "Poppyseed Muffin",
+        "link": "",
+        "imageSrc": "images/gifts/Poppyseed_Muffin.png"
+    },
+    {
+        "text": "Potato",
+        "link": "",
+        "imageSrc": "images/gifts/Potato.png"
+    },
+    {
+        "text": "Pufferfish",
+        "link": "",
+        "imageSrc": "images/gifts/Pufferfish.png"
+    },
+    {
+        "text": "Pumpkin",
+        "link": "",
+        "imageSrc": "images/gifts/Pumpkin.png"
+    },
+    {
+        "text": "Pumpkin Pie",
+        "link": "",
+        "imageSrc": "images/gifts/Pumpkin_Pie.png"
+    },
+    {
+        "text": "Purple Mushroom",
+        "link": "",
+        "imageSrc": "images/gifts/Purple_Mushroom.png"
+    },
+    {
+        "text": "Quartz",
+        "link": "",
+        "imageSrc": "images/gifts/Quartz.png"
+    },
+    {
+        "text": "Rabbit's Foot",
+        "link": "",
+        "imageSrc": "images/gifts/Rabbits_Foot.png"
+    },
+    {
+        "text": "Radish",
+        "link": "",
+        "imageSrc": "images/gifts/Radish.png"
+    },
+    {
+        "text": "Rainbow Shell",
+        "link": "",
+        "imageSrc": "images/gifts/Rainbow_Shell.png"
+    },
+    {
+        "text": "Red Plate",
+        "link": "",
+        "imageSrc": "images/gifts/Red_Plate.png"
+    },
+    {
+        "text": "Rhubarb Pie",
+        "link": "",
+        "imageSrc": "images/gifts/Rhubarb_Pie.png"
+    },
+    {
+        "text": "Rice Pudding",
+        "link": "",
+        "imageSrc": "images/gifts/Rice_Pudding.png"
+    },
+    {
+        "text": "Roasted Hazelnuts",
+        "link": "",
+        "imageSrc": "images/gifts/Roasted_Hazelnuts.png"
+    },
+    {
+        "text": "Ruby",
+        "link": "",
+        "imageSrc": "images/gifts/Ruby.png"
+    },
+    {
+        "text": "Salad",
+        "link": "",
+        "imageSrc": "images/gifts/Salad.png"
+    },
+    {
+        "text": "Salmon Dinner",
+        "link": "",
+        "imageSrc": "images/gifts/Salmon_Dinner.png"
+    },
+    {
+        "text": "Salmonberry",
+        "link": "",
+        "imageSrc": "images/gifts/Salmonberry.png"
+    },
+    {
+        "text": "Sandfish",
+        "link": "",
+        "imageSrc": "images/gifts/Sandfish.png"
+    },
+    {
+        "text": "Sashimi",
+        "link": "",
+        "imageSrc": "images/gifts/Sashimi.png"
+    },
+    {
+        "text": "Sea Cucumber",
+        "link": "",
+        "imageSrc": "images/gifts/Sea_Cucumber.png"
+    },
+    {
+        "text": "Solar Essence",
+        "link": "",
+        "imageSrc": "images/gifts/Solar_Essence.png"
+    },
+    {
+        "text": "Spaghetti",
+        "link": "",
+        "imageSrc": "images/gifts/Spaghetti.png"
+    },
+    {
+        "text": "Spice Berry",
+        "link": "",
+        "imageSrc": "images/gifts/Spice_Berry.png"
+    },
+    {
+        "text": "Spicy Eel",
+        "link": "",
+        "imageSrc": "images/gifts/Spicy_Eel.png"
+    },
+    {
+        "text": "Spring Onion",
+        "link": "",
+        "imageSrc": "images/gifts/Spring_Onion.png"
+    },
+    {
+        "text": "Squid",
+        "link": "",
+        "imageSrc": "images/gifts/Squid.png"
+    },
+    {
+        "text": "Stir Fry",
+        "link": "",
+        "imageSrc": "images/gifts/Stir_Fry.png"
+    },
+    {
+        "text": "Stone",
+        "link": "",
+        "imageSrc": "images/gifts/Stone.png"
+    },
+    {
+        "text": "Strawberry",
+        "link": "",
+        "imageSrc": "images/gifts/Strawberry.png"
+    },
+    {
+        "text": "Stuffing",
+        "link": "",
+        "imageSrc": "images/gifts/Stuffing.png"
+    },
+    {
+        "text": "Sturgeon",
+        "link": "",
+        "imageSrc": "images/gifts/Sturgeon.png"
+    },
+    {
+        "text": "Summer Spangle",
+        "link": "",
+        "imageSrc": "images/gifts/Summer_Spangle.png"
+    },
+    {
+        "text": "Sunflower",
+        "link": "",
+        "imageSrc": "images/gifts/Sunflower.png"
+    },
+    {
+        "text": "Super Cucumber",
+        "link": "",
+        "imageSrc": "images/gifts/Super_Cucumber.png"
+    },
+    {
+        "text": "Super Meal",
+        "link": "",
+        "imageSrc": "images/gifts/Super_Meal.png"
+    },
+    {
+        "text": "Survival Burger",
+        "link": "",
+        "imageSrc": "images/gifts/Survival_Burger.png"
+    },
+    {
+        "text": "Sweet Pea",
+        "link": "",
+        "imageSrc": "images/gifts/Sweet_Pea.png"
+    },
+    {
+        "text": "Thunder Egg",
+        "link": "",
+        "imageSrc": "images/gifts/Thunder_Egg.png"
+    },
+    {
+        "text": "Tiger Trout",
+        "link": "",
+        "imageSrc": "images/gifts/Tiger_Trout.png"
+    },
+    {
+        "text": "Tigerseye",
+        "link": "",
+        "imageSrc": "images/gifts/Tigerseye.png"
+    },
+    {
+        "text": "Tom Kha Soup",
+        "link": "",
+        "imageSrc": "images/gifts/Tom_Kha_Soup.png"
+    },
+    {
+        "text": "Tomato",
+        "link": "",
+        "imageSrc": "images/gifts/Tomato.png"
+    },
+    {
+        "text": "Topaz",
+        "link": "",
+        "imageSrc": "images/gifts/Topaz.png"
+    },
+    {
+        "text": "Truffle Oil",
+        "link": "",
+        "imageSrc": "images/gifts/Truffle_Oil.png"
+    },
+    {
+        "text": "Tulip",
+        "link": "",
+        "imageSrc": "images/gifts/Tulip.png"
+    },
+    {
+        "text": "Vegetable Medley",
+        "link": "",
+        "imageSrc": "images/gifts/Vegetable_Medley.png"
+    },
+    {
+        "text": "Void Egg",
+        "link": "",
+        "imageSrc": "images/gifts/Void_Egg.png"
+    },
+    {
+        "text": "Void Essence",
+        "link": "",
+        "imageSrc": "images/gifts/Void_Essence.png"
+    },
+    {
+        "text": "Wild Horseradish",
+        "link": "",
+        "imageSrc": "images/gifts/Wild_Horseradish.png"
+    },
+    {
+        "text": "Wild Plum",
+        "link": "",
+        "imageSrc": "images/gifts/Wild_Plum.png"
+    },
+    {
+        "text": "Wine",
+        "link": "",
+        "imageSrc": "images/gifts/Wine.png"
+    },
+    {
+        "text": "Winter Root",
+        "link": "",
+        "imageSrc": "images/gifts/Winter_Root.png"
+    },
+    {
+        "text": "Wool",
+        "link": "",
+        "imageSrc": "images/gifts/Wool.png"
+    },
+    {
+        "text": "Yam",
+        "link": "",
+        "imageSrc": "images/gifts/Yam.png"
     }
 ]
