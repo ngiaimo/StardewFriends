@@ -1,7 +1,7 @@
 [
     {
         "name": "Abigail",
-        "imageSrc": "../images/villagers/Abigail.png",
+        "imageSrc": "images/villagers/Abigail.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -1386,12 +1386,12 @@
     },
     {
         "name": "Alex",
-        "imageSrc": "../images/villagers/Alex.png",
+        "imageSrc": "images/villagers/Alex.png",
         "marriage": "true",
         "gifts" : [
             {
-                "loves": "Complete Breakfast,Salmon Dinner",
-                "likes": "Corn,Shashimi,Hashbrowns,Pizza,Spaghetti,Salad,Honey,Mayonnaise,Kale,Bok Choy,Sweet Pea,Parsnip,Potato,Tulip,Green Bean,Blackberry,Pancakes,Hot Pepper Jelly"
+                "loves": "Complete Breakfast, Salmon Dinner",
+                "likes": "Corn, Shashimi, Hashbrowns, Pizza, Spaghetti, Salad, Honey, Mayonnaise, Kale, Bok Choy, Sweet Pea, Parsnip, Potato, Tulip, Green Bean, Blackberry, Pancakes, Hot Pepper Jelly"
             }
         ],
         "location": [
@@ -1551,7 +1551,7 @@
     },
     {
         "name": "Caroline",
-        "imageSrc": "../images/villagers/Caroline.png",
+        "imageSrc": "images/villagers/Caroline.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -1716,7 +1716,7 @@
     },
     {
         "name": "Clint",
-        "imageSrc": "../images/villagers/Clint.png",
+        "imageSrc": "images/villagers/Clint.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -1881,7 +1881,7 @@
     },
     {
         "name": "Demetrius",
-        "imageSrc": "../images/villagers/Demetrius.png",
+        "imageSrc": "images/villagers/Demetrius.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -2046,7 +2046,7 @@
     },
     {
         "name": "Dwarf",
-        "imageSrc": "../images/villagers/Dwarf.png",
+        "imageSrc": "images/villagers/Dwarf.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -2211,7 +2211,7 @@
     },
     {
         "name": "Emily",
-        "imageSrc": "../images/villagers/Emily.png",
+        "imageSrc": "images/villagers/Emily.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -2376,7 +2376,7 @@
     },
     {
         "name": "Elliot",
-        "imageSrc": "../images/villagers/Elliot.png",
+        "imageSrc": "images/villagers/Elliott.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -2541,7 +2541,7 @@
     },
     {
         "name": "Evelyn",
-        "imageSrc": "../images/villagers/Evelyn.png",
+        "imageSrc": "images/villagers/Evelyn.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -2706,7 +2706,7 @@
     },
     {
         "name": "George",
-        "imageSrc": "../images/villagers/George.png",
+        "imageSrc": "images/villagers/George.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -2871,7 +2871,7 @@
     },
     {
         "name": "Gus",
-        "imageSrc": "../images/villagers/Gus.png",
+        "imageSrc": "images/villagers/Gus.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -3036,7 +3036,7 @@
     },
     {
         "name": "Haley",
-        "imageSrc": "../images/villagers/Haley.png",
+        "imageSrc": "images/villagers/Haley.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -3201,7 +3201,7 @@
     },
     {
         "name": "Harvey",
-        "imageSrc": "../images/villagers/Harvey.png",
+        "imageSrc": "images/villagers/Harvey.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -3366,7 +3366,7 @@
     },
     {
         "name": "Jas",
-        "imageSrc": "../images/villagers/Jas.png",
+        "imageSrc": "images/villagers/Jas.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -3531,7 +3531,7 @@
     },
     {
         "name": "Jodi",
-        "imageSrc": "../images/villagers/Jodi.png",
+        "imageSrc": "images/villagers/Jodi.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -3696,7 +3696,7 @@
     },
     {
         "name": "Kent",
-        "imageSrc": "../images/villagers/Kent.png",
+        "imageSrc": "images/villagers/Kent.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -3861,7 +3861,7 @@
     },
     {
         "name": "Krobus",
-        "imageSrc": "../images/villagers/Krobus.png",
+        "imageSrc": "images/villagers/Krobus.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -4026,7 +4026,7 @@
     },
     {
         "name": "Leah",
-        "imageSrc": "../images/villagers/Leah.png",
+        "imageSrc": "images/villagers/Leah.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -4191,7 +4191,7 @@
     },
     {
         "name": "Lewis",
-        "imageSrc": "../images/villagers/Lewis.png",
+        "imageSrc": "images/villagers/Lewis.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -4356,7 +4356,7 @@
     },
     {
         "name": "Linus",
-        "imageSrc": "../images/villagers/Linus.png",
+        "imageSrc": "images/villagers/Linus.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -4521,7 +4521,7 @@
     },
     {
         "name": "Marnie",
-        "imageSrc": "../images/villagers/Marnie.png",
+        "imageSrc": "images/villagers/Marnie.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -4686,7 +4686,7 @@
     },
     {
         "name": "Maru",
-        "imageSrc": "../images/villagers/Maru.png",
+        "imageSrc": "images/villagers/Maru.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -4851,7 +4851,7 @@
     },
     {
         "name": "Pam",
-        "imageSrc": "../images/villagers/Pam.png",
+        "imageSrc": "images/villagers/Pam.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -5016,7 +5016,7 @@
     },
     {
         "name": "Penny",
-        "imageSrc": "../images/villagers/Penny.png",
+        "imageSrc": "images/villagers/Penny.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -5181,7 +5181,7 @@
     },
     {
         "name": "Pierre",
-        "imageSrc": "../images/villagers/Pierre.png",
+        "imageSrc": "images/villagers/Pierre.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -5346,7 +5346,7 @@
     },
     {
         "name": "Robin",
-        "imageSrc": "../images/villagers/Robin.png",
+        "imageSrc": "images/villagers/Robin.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -5511,7 +5511,7 @@
     },
     {
         "name": "Sam",
-        "imageSrc": "../images/villagers/Sam.png",
+        "imageSrc": "images/villagers/Sam.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -5676,7 +5676,7 @@
     },
     {
         "name": "Sandy",
-        "imageSrc": "../images/villagers/Sandy.png",
+        "imageSrc": "images/villagers/Sandy.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -5841,7 +5841,7 @@
     },
     {
         "name": "Sebastian",
-        "imageSrc": "../images/villagers/Sebastian.png",
+        "imageSrc": "images/villagers/Sebastian.png",
         "marriage": "true",
         "gifts" : [
             {
@@ -6006,7 +6006,7 @@
     },
     {
         "name": "Shane",
-        "imageSrc": "../images/villagers/Shane.png",
+        "imageSrc": "images/villagers/Shane.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -6171,7 +6171,7 @@
     },
     {
         "name": "Vincent",
-        "imageSrc": "../images/villagers/Vincent.png",
+        "imageSrc": "images/villagers/Vincent.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -6336,7 +6336,7 @@
     },
     {
         "name": "Willy",
-        "imageSrc": "../images/villagers/Willy.png",
+        "imageSrc": "images/villagers/Willy.png",
         "marriage": "false",
         "gifts" : [
             {
@@ -6501,7 +6501,7 @@
     },
     {
         "name": "Wizard",
-        "imageSrc": "../images/villagers/Wizard.png",
+        "imageSrc": "images/villagers/Wizard.png",
         "marriage": "false",
         "gifts" : [
             {

@@ -1,8 +1,15 @@
 "use strict";
             
 var gift_list = [];
+var friend_list = [];
 var selectedSlot = "";
 var box = $("#item-box").remove();
+
+$.getJSON( "http://localhost/stardew_friends/data/stardew_friends_data.json", function( data ) {
+    friend_list = data;
+    generateFriends();
+    bindEventsAndFocus();
+  });
 
 $.getJSON( "http://localhost/stardew_friends/data/stardew_gifts_data.json", function( data ) {
     gift_list = data;
@@ -21,6 +28,8 @@ function searchGiftList() {
 }
 
 function populateGifts( searchTerm ) {
+    $("#item-list").empty();
+    
     if(searchTerm !== undefined) {
         for(var i = 0; i < gift_list.length; i++) {
             var item = gift_list[i].text;
@@ -36,6 +45,22 @@ function populateGifts( searchTerm ) {
     }
 }
 
+function generateFriends() {
+    $("#gifts_table tbody").empty();
+    
+    for(var i = 0; i < friend_list.length; i++) {
+        var character = friend_list[i];
+        
+        var table_row = "<tr><td>" + character.name + "</td>";
+        table_row += "<td><img src='" + character.imageSrc + "' title='" + character.name + "'/></td>";
+        table_row += "<td class='gift_items'><img src='images/gifts/Select_Item.png' title='Click to select'></td>";
+        table_row += "<td class='gift_items'><img src='images/gifts/Select_Item.png' title='Click to select'></td>";
+        table_row += "<td><strong>Loves: " +  character.gifts[0].loves + "</strong><br/><br/>Likes: " + character.gifts[0].likes + "</td></tr>";
+        
+        $("#gifts_table tbody").append(table_row);
+    }
+}
+
 function bindEventsAndFocus() {
     $("#item-list").on('mouseover', 'img.item', function() {
         $(this).addClass("hovered");
@@ -43,6 +68,7 @@ function bindEventsAndFocus() {
 
     $("#item-list").on('click', 'img.item', function() {
         $(selectedSlot).attr("src", $(this).attr("src"));
+        $(selectedSlot).attr("title", $(this).attr("title"));
         $(this).removeClass("hovered");
         $("#item-list").empty();
         $(box).remove();
@@ -62,16 +88,16 @@ function bindEventsAndFocus() {
 
     $("#search-box").val("");
     $("#search-box").focus();
+    
+    $(".gift_items").on('click', 'img', function(m) {
+        selectedSlot = $(this);
+        $(box).css("left", m.pageX+"px");
+        $(box).css("top", m.pageY+"px");
+        $(document.body).append($(box));
+        populateGifts();
+        bindEventsAndFocus();
+    });
 }
-
-$(".gift_items").on('click', 'img', function(m) {
-    selectedSlot = $(this);
-    $(box).css("left", m.pageX+"px");
-    $(box).css("top", m.pageY+"px");
-    $(document.body).append($(box));
-    populateGifts();
-    bindEventsAndFocus();
-});
 
 $(document).mouseup(function (e) {
     var container = $(box);

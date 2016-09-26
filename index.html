@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stardew Valley Gift Tracker</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/stardew_gifts_style.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="center"><img src="images/Main_Logo_Friends.png" /></div>
+        <table border="1" id="gifts_table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Portrait</th>
+                    <th>Gift 1</th>
+                    <th>Gift 2</th>
+                    <th>Gift(s)</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Abigail</td>
+                    <td><img src="images/villagers/Abigail.png" alt="Abigail"/></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td class="gift_items"><img src="images/gifts/Select_Item.png"></td>
+                    <td><strong>Loves: Blackberry Cobbler, Chocolate Cake, Spicy Eel, Pufferfish, Amethyst, Pumpkin</strong>
+                    <br/>
+                    <br/>
+                    Likes: Apple, Blue Jazz, Tulip, Sweet Pea, Crocus, Earth Crystal, Fire Quartz, Quartz, Diamond, Emerald, Ruby, Topaz, Cookie, Ice Cream, Pizza, Spaghetti, Sashimi, Salad, Honey, Maple Syrup, Mayonnaise, Cheese, Juice</td>
+                    <td>Pierre's Store</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div id="item-box">
+            <input id="search-box" type="text" name="item-search" placeholder="Search Item">
+            
+            <div id="item-list">
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="scripts/stardew_friends.js"></script>
+    </body>
+</html>
